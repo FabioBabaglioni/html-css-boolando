@@ -4,3 +4,47 @@
     box-sizing: border-box;
 }
 
+
+body{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* regole header */
+.orange{
+    background-color: orange;
+    height: 75px;
+}
+
+.conteiner-flex{
+    width: 80%;
+    display: flex;
+    height: 75px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#genere{
+    width: 20%;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 60%;
+    text-align: center;
+}
+
+#logo-image{
+    height: 40px;
+    width: auto;
+}
+
+#carrello{
+    width: 20%;
+    color: white;
+}
