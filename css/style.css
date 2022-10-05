@@ -15,15 +15,18 @@ a{
 }
 
 /* regole header */
-.orange{
+.bg-orange{
     background-color: orange;
+}
+
+header{
     height: 75px;
 }
 
 .conteiner-flex{
     width: 80%;
     display: flex;
-    height: 75px;
+    height: 100%;
     margin: auto;
     align-items: center;
     justify-content: space-between;
@@ -46,5 +49,89 @@ a{
 
 #carrello{
     width: 20%;
+    text-align: right;
+}
+
+/* regole main */
+
+.row{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    justify-content: space-between;
+
+}
+
+.product{
+    width: 30%;
+    height: auto;
+    position: relative;
+}
+
+.product-image1{
+    width: 100%;
+}
+
+.product-image2{
+    display: none;
+    width: 100%;
+}
+
+.product:hover .product-image2{
+    display: inline;
+}
+
+.product:hover .product-image1{
+    display: none;
+}
+
+
+.font-small{
+    font-size: 15px;
+}
+
+
+.capo{
+    font-size: 20px;
+}
+
+.prezzo-scontato{
+    color: red;
+}
+
+.prezzo-pieno{
+    text-decoration: line-through;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.label{
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
     color: white;
+}
+
+.label > span{
+    padding: 5px;
+    font-size: 15px;
+}
+
+.preferiti{
+    position: absolute;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    top: 10px;
+    right: 0px;
+    font-size: 30px;
+    text-align: center;
 }
